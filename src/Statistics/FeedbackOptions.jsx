@@ -1,4 +1,5 @@
 import { ButtonList, Button } from './Style/Style.styled';
+import { memo} from 'react';
 import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ onLeaveFeedback }) => {
@@ -13,4 +14,4 @@ const FeedbackOptions = ({ onLeaveFeedback }) => {
 FeedbackOptions.propTypes = {
  onLeaveFeedback:PropTypes.object.isRequired,   
 }
-export default FeedbackOptions;
+export default memo(FeedbackOptions);

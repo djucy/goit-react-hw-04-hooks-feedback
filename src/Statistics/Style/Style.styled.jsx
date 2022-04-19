@@ -6,16 +6,6 @@ export const AppContainer = styled.div`
 height: 100vh;
   width: 100vw;
 
-  ${'' /* background-image: url(./Image/coffee-1200.jpg);
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  @media screen and(min-width: 976px) {
-  
-    background-image: url(./Image/coffee.jpg);
-    background-position: center;
-  } */}
 
 `
 export const Container = styled.div`
